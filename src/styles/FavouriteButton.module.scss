@@ -1,0 +1,39 @@
+.favourite {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    border: 1px solid #F5D2F2;
+    border-radius: 4px;
+    color: #F18CE8;
+    cursor: pointer;
+
+    button {
+        margin: 0.8rem 0.9rem;
+        color: inherit;
+        height: 1.5rem;
+        width: 1rem;
+        background-color: #fff;
+        cursor: pointer;
+
+        svg {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    p {
+        margin: 0.8rem 0.9rem 0.8rem 0rem;
+        vertical-align: middle;
+
+    }
+}
+
+.active {
+    background: #D745BB;
+    color: white;
+
+    button {
+        background-color: #D745BB;
+    }
+
+}

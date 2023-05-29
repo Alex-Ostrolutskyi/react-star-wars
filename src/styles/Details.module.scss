@@ -1,0 +1,12 @@
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .title {
+        color: #4f4f4f;
+    }
+
+    .data {
+        color: #000;
+    }
+}
